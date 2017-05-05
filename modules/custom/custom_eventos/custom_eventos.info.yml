@@ -1,15 +1,17 @@
 name: Eventos
 type: module
 core: 8.x
-version: 8.x-1.1
+version: 8.x-1.2
 package: Custom
 dependencies:
+  - block
   - custom_imagens_diferentes
   - field
   - image
   - menu_ui
   - node
   - path
+  - taxonomy
   - text
   - user
   - views
