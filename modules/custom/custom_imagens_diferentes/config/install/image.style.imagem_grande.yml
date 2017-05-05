@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: imagem_grande
+label: 'Imagem grande'
+effects:
+  f584b697-015c-43a0-91b3-f5aefb4b5131:
+    uuid: f584b697-015c-43a0-91b3-f5aefb4b5131
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 600
+      height: 300

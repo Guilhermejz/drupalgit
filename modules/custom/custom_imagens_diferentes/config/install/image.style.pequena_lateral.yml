@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: pequena_lateral
+label: 'Pequena lateral'
+effects:
+  ae6a4d8c-b025-4490-9eb4-8cd7341e3fd9:
+    uuid: ae6a4d8c-b025-4490-9eb4-8cd7341e3fd9
+    id: image_resize
+    weight: 1
+    data:
+      width: 150
+      height: 100
