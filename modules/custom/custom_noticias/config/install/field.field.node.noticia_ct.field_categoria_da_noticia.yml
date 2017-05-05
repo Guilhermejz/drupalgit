@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categoria_da_noticia
+    - node.type.noticia_ct
+    - taxonomy.vocabulary.categoria_da_noticia
+id: node.noticia_ct.field_categoria_da_noticia
+field_name: field_categoria_da_noticia
+entity_type: node
+bundle: noticia_ct
+label: Categoria
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categoria_da_noticia: categoria_da_noticia
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

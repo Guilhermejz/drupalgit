@@ -1,0 +1,58 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.noticia_ct.body
+    - field.field.node.noticia_ct.field_categoria_da_noticia
+    - field.field.node.noticia_ct.field_imagem_da_noticia
+    - field.field.node.noticia_ct.field_tags
+    - image.style.imagem_grande
+    - node.type.noticia_ct
+  module:
+    - image
+    - text
+    - user
+id: node.noticia_ct.default
+targetEntityType: node
+bundle: noticia_ct
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_categoria_da_noticia:
+    weight: 3
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_imagem_da_noticia:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: imagem_grande
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_tags:
+    weight: 4
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
