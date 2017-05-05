@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.eventos_relacionado
+  module:
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__eventos_relacionado_eventos_relacionados
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:eventos_relacionado-eventos_relacionados'
+settings:
+  id: 'views_block:eventos_relacionado-eventos_relacionados'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      evento: evento
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
