@@ -1,0 +1,10 @@
+name: Social
+description: 'Versiona bloco rede social'
+type: module
+core: 8.x
+dependencies:
+  - addtoany
+  - block
+  - system
+version: 8.x-1.0
+package: Custom
