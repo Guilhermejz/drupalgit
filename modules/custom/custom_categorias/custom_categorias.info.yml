@@ -1,0 +1,7 @@
+name: Categorias
+type: module
+core: 8.x
+package: Custom
+dependencies:
+  - taxonomy
+version: 8.x-1.1
