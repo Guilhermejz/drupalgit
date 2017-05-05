@@ -1,0 +1,8 @@
+name: 'Segurança - Honeypot'
+description: 'Versiona segurança antispam.'
+type: module
+core: 8.x
+dependencies:
+  - honeypot
+version: 8.x-1.0
+package: Custom
