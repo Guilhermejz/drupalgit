@@ -1,0 +1,14 @@
+name: Eventos
+type: module
+core: 8.x
+version: 8.x-1.0
+package: Custom
+dependencies:
+  - custom_imagens_diferentes
+  - field
+  - image
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
